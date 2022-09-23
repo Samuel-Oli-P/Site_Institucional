@@ -31,6 +31,11 @@ body{
     align-items: center;
 }
 
+.navbar a {
+    text-decoration: none; 
+    color: #e3b062;
+}
+
 #here {
     font-weight: 1000;
     color: #32b9cd;
@@ -64,59 +69,37 @@ p {
     font-weight: 800;
 }
 
-.box_form {
-    width: 400px;
-    height: 300px;
-    background-color: #F2F2F2;
-    color: palevioletred;
+.social {
+    /* border: 1px solid green; */
+    background-color: #e5e5e5;
+}
+
+.box img {
+    width: 170px;
+}
+
+.social .container {
+    /* border: 1px solid purple; */
+}
+
+.social .container .boxes {
+    /* border: 1px solid yellow; */
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    border-radius: 4px;
 }
 
-.box_form h1 {
-    font-size: 30px;
-}
-
-.box_input {
-    width: 200px;
+.box {
+    margin: 50px 10px 10px 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center ;
 }
 
-.box_input span {
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-.box_input input {
-    padding: 10px 15px;
+.social p {
     text-align: center;
-    border-radius: 5px;
-    margin-top: 5px;
-    border: 2px solid rgb(157, 172, 255);
-}
-
-.box_input button {
-    width: 120px;
-    align-self: center;
-    background-color: #E1374E;
-    color: white;
-    border: none;
-    border-radius: 5px;
     font-size: 16px;
-    padding: 10px 15px;
-    margin-top: 30px;
-    transition: all 0.3s;
-    cursor: pointer;
-}
-
-.box_input button:hover {
-    transition: all 0.3s;
-    background-color: #aa0219;
-    font-weight: bold;
 }
 
 .footer .container {
