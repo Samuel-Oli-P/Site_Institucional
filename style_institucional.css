@@ -31,6 +31,11 @@ body{
     align-items: center;
 }
 
+#here {
+    font-weight: 1000;
+    color: #32b9cd;
+}
+
 .banner {
     width: 93.7%;
     height: 400px;
